@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 0;
+    border: solid black;
+}
+
+header, section, main, footer{
+    margin: 30px;
+}
+
+h1, h2 {
+    font-family: "Afacad Flux", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1{ 
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    flex-grow: 1;
+    list-style: none;
+}
+
+section{
+    text-align: center;
+    border-top: solid rgb(175, 174, 174);
+    border-bottom: solid rgb(175, 174, 174);
+}
+
+main{
+    display: flex;
+}
+
+main article{
+    flex-grow: 1;
+    width: 25%;
+    padding: 0 30px 20px 0;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.7em;
+}
+
